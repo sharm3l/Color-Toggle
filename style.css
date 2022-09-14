@@ -1,0 +1,62 @@
+body,
+.menu {
+  margin: 0;
+  padding: 0;
+  background-color: lightgrey;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 300px;
+  position: absolute;
+  top: 60px;
+  left: -350px;
+}
+
+img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  cursor: pointer;
+  border: 2px solid grey;
+}
+
+.grey {
+  background-color: lightgrey;
+}
+.red {
+  background-color: red;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+.green {
+  background-color: green;
+}
+.hamburger {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  padding-bottom: 12px;
+}
+.toggle-menu {
+  position: relative;
+}
+
+.hamburger.active .menu {
+  display: block;
+  left: 0;
+  transition: 1s;
+}
+
+#main {
+  float: right;
+}

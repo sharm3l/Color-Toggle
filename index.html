@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Toggle</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="main-color">
+    <div class="toggle-menu">
+      <div class="hamburger" onmouseover="openMenu()" onmouseout="closeMenu()">
+        <img class="hamburger-menu" src="hamburger_menu.png" />
+        <nav class="navbar">
+          <ul class="menu">
+            <li class="nav-color grey" data-color="grey">Home</li>
+            <li class="nav-color red" data-color="red">Red</li>
+            <li class="nav-color orange" data-color="orange">Orange</li>
+            <li class="nav-color purple" data-color="purple">Purple</li>
+            <li class="nav-color green" data-color="green">Green</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <main id="content"></main>
+  </body>
+</html>
